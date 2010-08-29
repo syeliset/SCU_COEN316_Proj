@@ -1,0 +1,841 @@
+TWhereAmI
+v7
+r0
+t304454122.294431
+cCheck dependencies
+cProcessInfoPlistFile /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/Info.plist WhereAmI-Info.plist
+cCompileXIB /Users/anmtan/Documents/WhereAmI/MainWindow.xib
+cCompileXIB /Users/anmtan/Documents/WhereAmI/WhereAmIViewController.xib
+cProcessPCH /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o /Users/anmtan/Documents/WhereAmI/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI normal i386
+cGenerateDSYMFile /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+cTouch /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004A42E5F300000000000000EE
+t1245898227
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A0CD38B00000000000423F0
+t1242354571
+s271344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004A0CD38600000000000001AF
+t1242354566
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BEB5CB90000000000000110
+t1273715897
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BA18C610000000000060DB0
+t1268878433
+s396720
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BA18C5B00000000000001AF
+t1268878427
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/JSON.h
+c000000004C73FC900000000000000BE8
+t1282669712
+s3048
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.h
+c000000004C73FC90000000000000085F
+t1282669712
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.m
+c000000004C73FC90000000000000077D
+t1282669712
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.h
+c000000004C73FC9000000000000007F0
+t1282669712
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.m
+c000000004C73FC90000000000000075D
+t1282669712
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.h
+c000000004C73FC900000000000000B82
+t1282669712
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.m
+c000000004C73FC900000000000000AC1
+t1282669712
+s2753
+i"SBJsonBase.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.h
+c000000004C73FC900000000000000C8F
+t1282669712
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.m
+c000000004C73FC900000000000003B7A
+t1282669712
+s15226
+i"SBJsonParser.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.h
+c000000004C73FC9000000000000011D9
+t1282669712
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.m
+c000000004C73FC9000000000000020D8
+t1282669712
+s8408
+i"SBJsonWriter.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.h
+c000000004C73FC900000000000000207
+t1282669712
+s519
+i<UIKit/UIKit.h>
+
+N/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.m
+c000000004C73FC900000000000000291
+t1282669712
+s657
+i"WhereAmIAppDelegate.h"
+i"WhereAmIViewController.h"
+
+N/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.h
+c000000004C73FC900000000000000298
+t1282669712
+s664
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.m
+c000000004C73FC90000000000000110B
+t1282669712
+s4363
+i"WhereAmIViewController.h"
+i"JSON/JSON.h"
+
+N/Users/anmtan/Documents/WhereAmI/MainWindow.xib
+c000000004C73FC900000000000002420
+t1282669712
+s9248
+
+N/Users/anmtan/Documents/WhereAmI/WhereAmIViewController.xib
+c000000004C73FC900000000000009D9E
+t1282669712
+s40350
+
+N/Users/anmtan/Documents/WhereAmI/WhereAmI_Prefix.pch
+c000000004C73FC9000000000000000B9
+t1282669712
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app
+t1282669786
+s272
+
+N/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM
+t1282669786
+s136
+
+N/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/Info.plist
+t1282669712
+s595
+
+N/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/MainWindow.nib
+t1282669712
+s1095
+
+N/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/PkgInfo
+t1282669712
+s8
+
+N/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+t1282669786
+s49224
+
+N/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmIViewController.nib
+t1282669712
+s3357
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o
+t1282669785
+s6960
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o
+t1282669785
+s6956
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o
+t1282669785
+s12096
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o
+t1282669785
+s30936
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o
+t1282669785
+s23940
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmI.LinkFileList
+c000000004C73FCD800000000000003FD
+t1282669784
+s1021
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o
+t1282669785
+s42872
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o
+t1282669785
+s48592
+
+N/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o
+t1282669785
+s5932
+
+N/Users/anmtan/Documents/WhereAmI/main.m
+c000000004C73FC900000000000000173
+t1282669712
+s371
+i<UIKit/UIKit.h>
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/JSON.h
+c000000004C5354180000000000000BE8
+t1280529432
+s3048
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSObject+SBJSON.h
+c000000004C535269000000000000085F
+t1280529001
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSObject+SBJSON.m
+c000000004C535269000000000000077D
+t1280529001
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSString+SBJSON.h
+c000000004C53526900000000000007F0
+t1280529001
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSString+SBJSON.m
+c000000004C535269000000000000075D
+t1280529001
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonBase.h
+c000000004C5352690000000000000B82
+t1280529001
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonBase.m
+c000000004C5352690000000000000AC1
+t1280529001
+s2753
+i"SBJsonBase.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonParser.h
+c000000004C5352690000000000000C8F
+t1280529001
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonParser.m
+c000000004C5352690000000000003B7A
+t1280529001
+s15226
+i"SBJsonParser.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonWriter.h
+c000000004C53526900000000000011D9
+t1280529001
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonWriter.m
+c000000004C53526900000000000020D8
+t1280529001
+s8408
+i"SBJsonWriter.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIAppDelegate.h
+c000000004C704E320000000000000207
+t1282428466
+s519
+i<UIKit/UIKit.h>
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIAppDelegate.m
+c000000004C704E2C0000000000000291
+t1282428460
+s657
+i"WhereAmIAppDelegate.h"
+i"WhereAmIViewController.h"
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIViewController.h
+c000000004C73F9090000000000000298
+t1282668809
+s664
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIViewController.m
+c000000004C73F9C8000000000000110B
+t1282669000
+s4363
+i"WhereAmIViewController.h"
+i"JSON/JSON.h"
+
+N/Users/anmtan/Downloads/WhereAmI/MainWindow.xib
+c000000004A8ACDBD0000000000002420
+t1250610621
+s9248
+
+N/Users/anmtan/Downloads/WhereAmI/WhereAmIViewController.xib
+c000000004C731D460000000000009D9E
+t1282612550
+s40350
+
+N/Users/anmtan/Downloads/WhereAmI/WhereAmI_Prefix.pch
+c000000004A8ACDBD00000000000000B9
+t1250610621
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app
+t1282669003
+s238
+
+N/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM
+t1282669003
+s102
+
+N/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/Info.plist
+t1282668870
+s595
+
+N/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/MainWindow.nib
+t1282668870
+s1095
+
+N/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/PkgInfo
+t1282668870
+s8
+
+N/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+t1282669003
+s49224
+
+N/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmIViewController.nib
+t1282668870
+s3357
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o
+t1282668871
+s6960
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o
+t1282668871
+s6956
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o
+t1282668871
+s12096
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o
+t1282668871
+s30936
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o
+t1282668871
+s23940
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmI.LinkFileList
+c000000004C6E128300000000000003FD
+t1282282115
+s1021
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o
+t1282668871
+s42872
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o
+t1282669003
+s48592
+
+N/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o
+t1282668871
+s5932
+
+N/Users/anmtan/Downloads/WhereAmI/main.m
+c000000004A8ACDBD0000000000000173
+t1250610621
+s371
+i<UIKit/UIKit.h>
+
+N/var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch.gch
+t1282669785
+s13805456
+
+N/var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-gqbnrgnoaxflxyavygvhtpepkfvn/WhereAmI_Prefix.pch.gch
+t1281909000
+s12952976
+
+N/var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch.gch
+t1282668871
+s13805456
+
+NWhereAmI-Info.plist
+c000000004C73FC90000000000000038D
+t1282669712
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies304454122#304454122#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.732189
+e304362585.806120
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.m304362585#304362585#0(0"0(0#0#63"/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.m4300911832#1846"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSObject+SBJSON.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o /Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361671.433744
+e304361671.501679
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSObject+SBJSON.m304361671#304361671#0(0"0(0#0#63"/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSObject+SBJSON.m4300911832#1846"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSObject+SBJSON.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.806220
+e304362585.860002
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.m304362585#304362585#0(0"0(0#0#63"/Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.m4300911832#1846"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/Classes/JSON/NSString+SBJSON.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o /Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361671.501796
+e304361671.562767
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSString+SBJSON.m304361671#304361671#0(0"0(0#0#63"/Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSString+SBJSON.m4300911832#1846"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/Classes/JSON/NSString+SBJSON.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.815677
+e304362585.892010
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o
+x/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.m304362585#304362585#0(0"0(0#0#58"/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.m4300911832#1836"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonBase.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361671.532326
+e304361671.645161
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o
+x/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonBase.m304361671#304361671#0(0"0(0#0#58"/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonBase.m4300911832#1836"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonBase.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.860107
+e304362585.993168
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o
+x/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.m304362585#304362585#0(0"0(0#0#60"/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.m4300911832#1840"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonParser.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361671.562971
+e304361671.692208
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o
+x/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonParser.m304361671#304361671#0(0"0(0#0#60"/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonParser.m4300911832#1840"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonParser.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.892112
+e304362585.989304
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.m304362585#304362585#0(0"0(0#0#60"/Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.m4300911832#1840"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/Classes/JSON/SBJsonWriter.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361671.645258
+e304361671.735693
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonWriter.m304361671#304361671#0(0"0(0#0#60"/Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonWriter.m4300911832#1840"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/Classes/JSON/SBJsonWriter.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.635785
+e304362585.732088
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o
+x/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.m304362585#304362585#0(0"0(0#0#62"/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.m4300911832#1849"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIAppDelegate.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o /Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361671.345517
+e304361671.433641
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o
+x/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIAppDelegate.m304361671#304361671#0(0"0(0#0#62"/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIAppDelegate.m4300911832#1849"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIAppDelegate.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIAppDelegate.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.704460
+e304362585.815577
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o
+x/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.m304362585#304362585#0(0"0(0#0#65"/Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.m4300911832#1855"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/Classes/WhereAmIViewController.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o /Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361803.481457
+e304361803.568050
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o
+x/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIViewController.m304361803#304361803#0(0"0(0#0#65"/Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIViewController.m4300911832#1855"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/Classes/WhereAmIViewController.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmIViewController.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o /Users/anmtan/Documents/WhereAmI/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362585.634117
+e304362585.704352
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o
+x/Users/anmtan/Documents/WhereAmI/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/anmtan/Documents/WhereAmI/main.m304362585#304362585#0(0"0(0#0#39"/Users/anmtan/Documents/WhereAmI/main.m4300911832#1811"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch -c /Users/anmtan/Documents/WhereAmI/main.m -o /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o0#
+
+CCompileC build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o /Users/anmtan/Downloads/WhereAmI/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361671.343970
+e304361671.402888
+r1
+xCompileC
+xbuild/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o
+x/Users/anmtan/Downloads/WhereAmI/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/anmtan/Downloads/WhereAmI/main.m304361671#304361671#0(0"0(0#0#39"/Users/anmtan/Downloads/WhereAmI/main.m4300911832#1811"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -include /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch -c /Users/anmtan/Downloads/WhereAmI/main.m -o /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/anmtan/Documents/WhereAmI/MainWindow.xib
+r0
+
+CCompileXIB /Users/anmtan/Documents/WhereAmI/WhereAmIViewController.xib
+r0
+
+CCompileXIB /Users/anmtan/Downloads/WhereAmI/MainWindow.xib
+s304361670.060564
+e304361670.408199
+r1
+xCompileXIB
+x/Users/anmtan/Downloads/WhereAmI/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib304361670#304361670#0(0"0(0#0#47"/Users/anmtan/Downloads/WhereAmI/MainWindow.xib4300911832#463"    cd /Users/anmtan/Downloads/WhereAmI    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/MainWindow.nib /Users/anmtan/Downloads/WhereAmI/MainWindow.xib0#
+
+CCompileXIB /Users/anmtan/Downloads/WhereAmI/WhereAmIViewController.xib
+s304361670.061253
+e304361670.635615
+r1
+xCompileXIB
+x/Users/anmtan/Downloads/WhereAmI/WhereAmIViewController.xib
+lSLF07#2@37"CompileXIB WhereAmIViewController.xib304361670#304361670#0(0"0(0#0#59"/Users/anmtan/Downloads/WhereAmI/WhereAmIViewController.xib4300911832#487"    cd /Users/anmtan/Downloads/WhereAmI    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmIViewController.nib /Users/anmtan/Downloads/WhereAmI/WhereAmIViewController.xib0#
+
+CGenerateDSYMFile /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+s304362586.018558
+e304362586.034703
+r1
+xGenerateDSYMFile
+x/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM
+x/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/WhereAmI.app.dSYM build/Debug-iphonesimulator/WhereAmI.app/WhereAmI304362586#304362586#0(0"0(0#0#82"/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI4300911832#368"    cd /Users/anmtan/Documents/WhereAmI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI -o /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM0#
+
+CGenerateDSYMFile /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+s304361803.592987
+e304361803.611683
+r1
+xGenerateDSYMFile
+x/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM
+x/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/WhereAmI.app.dSYM build/Debug-iphonesimulator/WhereAmI.app/WhereAmI304361803#304361803#0(0"0(0#0#82"/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI4300911832#368"    cd /Users/anmtan/Downloads/WhereAmI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI -o /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app.dSYM0#
+
+CLd /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI normal i386
+s304362585.993260
+e304362586.018448
+r1
+xLd
+x/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+xnormal
+xi386
+lSLF07#2@87"Link /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI304362585#304362586#0(0"0(0#0#0"4300911832#861"    cd /Users/anmtan/Documents/WhereAmI    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -filelist /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmI.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI0#
+
+CLd /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI normal i386
+s304361803.568145
+e304361803.592883
+r1
+xLd
+x/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI
+xnormal
+xi386
+lSLF07#2@87"Link /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI304361803#304361803#0(0"0(0#0#0"4300911832#861"    cd /Users/anmtan/Downloads/WhereAmI    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -filelist /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/Objects-normal/i386/WhereAmI.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/WhereAmI0#
+
+CProcessInfoPlistFile /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/Info.plist WhereAmI-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/Info.plist WhereAmI-Info.plist
+s304361670.035397
+e304361670.060471
+r1
+xProcessInfoPlistFile
+x/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/Info.plist
+xWhereAmI-Info.plist
+lSLF07#2@27"Process WhereAmI-Info.plist304361670#304361670#0(0"0(0#0#52"/Users/anmtan/Downloads/WhereAmI/WhereAmI-Info.plist4300911832#464"    cd /Users/anmtan/Downloads/WhereAmI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WhereAmI-Info.plist -genpkginfo /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app/Info.plist0#
+
+CProcessPCH /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304362584.911978
+e304362585.633844
+r1
+xProcessPCH
+x/var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch.gch
+xWhereAmI_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WhereAmI_Prefix.pch304362584#304362585#0(0"0(0#0#52"/Users/anmtan/Documents/WhereAmI/WhereAmI_Prefix.pch4300911832#1708"    cd /Users/anmtan/Documents/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Documents/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -c /Users/anmtan/Documents/WhereAmI/WhereAmI_Prefix.pch -o /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-bdbuvvjywzfjsicuthzqpqzszjfu/WhereAmI_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-gqbnrgnoaxflxyavygvhtpepkfvn/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303601799.971373
+e303601800.740377
+r1
+xProcessPCH
+x/var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-gqbnrgnoaxflxyavygvhtpepkfvn/WhereAmI_Prefix.pch.gch
+xWhereAmI_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WhereAmI_Prefix.pch303601799#303601800#0(0"0(0#0#52"/Users/anmtan/Downloads/WhereAmI/WhereAmI_Prefix.pch4300911832#1708"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -c /Users/anmtan/Downloads/WhereAmI/WhereAmI_Prefix.pch -o /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-gqbnrgnoaxflxyavygvhtpepkfvn/WhereAmI_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch.gch WhereAmI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304361670.635739
+e304361671.343826
+r1
+xProcessPCH
+x/var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch.gch
+xWhereAmI_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WhereAmI_Prefix.pch304361670#304361671#0(0"0(0#0#52"/Users/anmtan/Downloads/WhereAmI/WhereAmI_Prefix.pch4300911832#1708"    cd /Users/anmtan/Downloads/WhereAmI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-generated-files.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-own-target-headers.hmap -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-all-target-headers.hmap -iquote /Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/WhereAmI-project-headers.hmap -F/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator -I/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/include -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources/i386 -I/Users/anmtan/Downloads/WhereAmI/build/WhereAmI.build/Debug-iphonesimulator/WhereAmI.build/DerivedSources -c /Users/anmtan/Downloads/WhereAmI/WhereAmI_Prefix.pch -o /var/folders/hH/hHQ+cpQVFJKexQ2q0qBgdk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhereAmI_Prefix-hknohxverbgkvvbqygxsujfrkhsp/WhereAmI_Prefix.pch.gch0#
+
+CTouch /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app
+s304362586.034791
+e304362586.037331
+r1
+xTouch
+x/Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app
+lSLF07#2@79"Touch /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app304362586#304362586#0(0"0(0#0#0"4300911832#267"    cd /Users/anmtan/Documents/WhereAmI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/anmtan/Documents/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app0#
+
+CTouch /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app
+s304361803.611768
+e304361803.622858
+r1
+xTouch
+x/Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app
+lSLF07#2@79"Touch /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app304361803#304361803#0(0"0(0#0#0"4300911832#267"    cd /Users/anmtan/Downloads/WhereAmI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/anmtan/Downloads/WhereAmI/build/Debug-iphonesimulator/WhereAmI.app0#
+

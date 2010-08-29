@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0px; padding: 0px }
+  #map_canvas { height: 100% }
+</style>
+<script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?sensor=true">
+</script>
+<script src="http://code.jquery.com/jquery-1.4.2.js"></script>
+<script type="text/javascript"><!--
+ var poly;
+var map;
+var latitude;
+var longitude;
+var latlong;
+
+function processing(){
+	//make an ajax call to the server to get all data
+	$.getJSON('http://184.73.193.2/locInfo/?fbUserName=homerSimpson&locInfoSession=AnMing_2010-08-25_16_29_45&callback=?', function(jsonArray) {
+		for (var i in jsonArray)
+		{
+			latlong = new google.maps.LatLng(jsonArray[i].latitude, jsonArray[i].longitude);
+			map.setCenter(latlong);
+			addLatLng(latlong);
+
+		};
+	});
+}
+
+
+funtion setMapCenter ()
+{
+}
+
+
+function initialize() {
+  var sf = new google.maps.LatLng(37.719189, -122.445536);
+  var myOptions = {
+    zoom: 14,
+    center: sf,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+  map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+
+  var polyOptions = {
+		    strokeColor: '#0000FF',
+		    strokeOpacity: 0.7,
+		    strokeWeight: 5
+		  }
+  poly = new google.maps.Polyline(polyOptions);
+  poly.setMap(map);
+
+  // Add a listener for the click event
+  //google.maps.event.addListener(map, 'click', addLatLng);
+
+	//setInterval( "processing()", 5000 ); // call process every 5 seconds
+	processing();
+}
+
+
+
+/**
+ * Handles click events on a map, and adds a new point to the Polyline.
+ * @param {MouseEvent} mouseEvent
+ */
+function addLatLng(newLatLng) {
+
+  var path = poly.getPath();
+
+  // Because path is an MVCArray, we can simply append a new coordinate
+  // and it will automatically appear
+  path.push(newLatLng);
+
+  // Add a new marker at the new plotted point on the polyline.
+  //var marker = new google.maps.Marker({
+  //  position: event.latLng,
+  //  title: '#' + path.getLength(),
+  //  map: map
+  //});
+}
+
+
+--></script>
+</head>
+<body onload="initialize();">
+<div id="map_canvas" style="width:100%; height:100%"></div>
+</body>
+</html>
